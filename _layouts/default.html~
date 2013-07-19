@@ -24,32 +24,19 @@
       <div class="navbar">
         <div class="navbar-inner">
             <ul class="nav">
-              <li><a href="/portfolio"></li>
-              <li><a href="/view/home.html">Home</a></li>              
-              <li><a href="/view/portfolio.html">Portfolio</a></li>
-              <li><a href="/view/why.html">WHY</a></li>
-              <li><a href="/view/services.html">Services</a></li>
-              <li><a href="/view/faq.html">FAQ</a></li> 
-              <li><a href="/view/contact.html">Contact</a></li>
-              <li><a href="/jekyll/update/2013/07/15/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
-              </li>
+              <li><a href="/home/">Home</a></li>              
+              <li><a href="portfolio/">Portfolio</a></li>
+              <li><a href="/why/">WHY</a></li>
+              <li><a href="/services/">Services</a></li>
+              <li><a href="/faq/">FAQ</a></li> 
+              <li><a href="/contact/">Contact</a></li> 
             </ul>  
         </div>
       </div>
     </div>
 
       
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-              
-            </div>
-
-                {{ content }}
-
-           
+   
            <div class="container-narrow">
   
           <div class="span8">
@@ -57,8 +44,8 @@
 
             <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
 
-            <p><%= link_to image_tag("Facebook.png", alt: "facebook"), 'http://facebook.com/Deviwarang' %> 
-            <%= link_to image_tag("Twitter.png", alt: "Twitter"), 'https://twitter.com/DeviWarang1' %>  </p>
+            <p><a href= 'http://facebook.com/Deviwarang'><img src= "/images/Facebook.png" alt: "facebook"></a>
+            <a href= 'https://twitter.com/DeviWarang1'<img src= "/images/Twitter.png", alt: "Twitter"></a> </p>
 
           </div>
       
