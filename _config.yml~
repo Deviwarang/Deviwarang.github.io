@@ -1,7 +1,12 @@
 name: Swan Pixels Web Designs
 markdown: redcarpet
 pygments: true
+permalink: /services/:title
+permalink: /home/:title
 permalink: /why/:title
+permalink: /portfolio/:title
+permalink: /faq/:title
+permalink: /contact/:title
 auto: true
 
 name: Devi Warang
