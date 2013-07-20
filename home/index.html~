@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "home"
 --- 
 
 <section class="content">
@@ -12,9 +13,9 @@ layout: default
     </ol>
     <!-- Carousel items -->
     <div class="carousel-inner">
-    <div class="active item"><%= link_to image_tag("web1n.jpg", alt: "parrot") %> </div>
-    <div class="item"><%= link_to image_tag("web3n.jpg", alt: "rising")  %> </div>
-    <div class="item"><%= link_to image_tag("web6n.jpg", alt: "Twitter")  %> </div>
+    <div class="active item"><img src= "/images/web1n.jpg" alt="webdesign") > </div>
+    <div class="item"><img src= "/images/web3n.jpg" alt="website")  > </div>
+    <div class="item"><img src= "/images/web6n.jpg" alt="webpage")  > </div>
     </div>
     <!-- Carousel nav -->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -44,7 +45,7 @@ layout: default
         </head>
 
         <body>
-        <div class="ex"><%= link_to image_tag("web.jpg", alt: "tulip") %>
+        <div class="ex"><img src= "/images/web.jpg" alt="webtools")  > 
         
       </div>  
   </div> 
