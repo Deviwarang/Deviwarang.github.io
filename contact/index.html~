@@ -57,12 +57,15 @@ layout: default
 
       <div class="row-fluid marketing">
         <div class="span6"> 
-  <h2>Swan Pixels Web Designs</h2>
-  <p>Local: <span class="contact">9930789292</span><br>
-     Email us: <a href="#">@swanpixels.com</a></p>
-	<address>C 210, Maruti Darshan<br>
-                 Hanuman Chowk <br>
-		 Mulund East</address> 
+  			<h2>Swan Pixels</h2>
+  <address>C 210, Maruti Darshan<br>
+           Hanuman Chowk <br>
+          Mulund East,<br>
+					Mumbai-40081<br>
+					India<br>		
+</address> 
+				<p> Mobile no. +91-9930789292<br>
+						Tel no  +91-22-21632659 <br>
       </div>
 
 	<div class="span6">
