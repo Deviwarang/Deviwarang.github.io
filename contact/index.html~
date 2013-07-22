@@ -51,7 +51,8 @@ layout: default
   </head>
 
   <body>
-       
+       <div class="container-narrow">
+     	
 	
     	<h2 class="form-signin-heading">Contact <img src="/images/greensmilen.jpg" alt="smile"></h2>
     	<div class="touch">
