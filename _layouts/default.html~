@@ -44,20 +44,15 @@
 
             <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
 
-            <p><a href= 'http://facebook.com/Deviwarang'><img src= "/images/Facebook.png" alt: "facebook"></a>
-            <a href= 'https://twitter.com/DeviWarang1'><img src= "/images/Twitter.png" alt="Twitter"></a> </p>
+            <p><a href= 'http://facebook.com/'><img src= "/images/Facebook.png" alt: "facebook"></a>
+            <a href= 'https://twitter.com/'><img src= "/images/Twitter.png" alt="Twitter"></a> </p>
 
           </div>
       
                 <p>&copy; SwanPixels 2013  All Rights Reserved</p>
         
     </div> <!-- /container -->
-<div id="myCarousel" class="carousel slide">
-    <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+
 
  <!-- Le javascript
     ================================================== -->
