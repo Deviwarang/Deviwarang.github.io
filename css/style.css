@@ -2,7 +2,7 @@
 .container {
 
   width: 700px;
-  background: url('parrotn.jpg');  
+  
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -23,7 +23,12 @@ h3 {
   }
 
   .navbar, .navbar-inner{
-    background: #420600;
+    background: #FD1201;
+
+  }
+
+.nav > li > a {
+   color: #fff;
   }
 
 
@@ -66,7 +71,7 @@ margin:20px;
 }
 
 .footer {
-  background: url('parrotn.jpg');
+  
  
   color: #000;
   padding: 10px;
