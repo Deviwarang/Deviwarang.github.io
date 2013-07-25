@@ -60,6 +60,12 @@ em{
   text-align: center;
 }
 
+.low-cost-web-site{
+  width:750;
+  padding:5px;
+  border: 5px solid gray;
+  margin: 20px;
+}
 
 .box
 {
