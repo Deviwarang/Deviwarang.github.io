@@ -23,18 +23,24 @@ h3 {
   }
 
   .navbar, .navbar-inner{
-    background: #FD1201;
+    background: #533885;
 
   }
 
-.nav > li > a {
-   color: #fff;
-  }
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  background-color: #A192BC;
+  color: #000;
+} 
+.navbar .active  a {
+  background-color: #A192BC;
+  color: #000;
+}
 
 
 
 a:hover, a:active {
-  background-color: #263;
+  background-color: #000;
 }
 .btn {
   

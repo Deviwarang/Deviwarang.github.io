@@ -16,8 +16,16 @@
         <link rel="stylesheet" href="/css/style.css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.js"></script>
-
     </head>
+    <script>
+     $(function() {
+        $('#nav li a').click(function() {
+           $('#nav li').removeClass();
+           $($(this).attr('href')).addClass('active');
+        });
+     });
+  </script>
+   
     <body>
     <div class="container-narrow">
 <img src="/images/swan1.jpg" alt="">
