@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
 
+body {
+  background: #8F7BAC;
+  
+}
 .container {
 
   width: 700px;
@@ -10,12 +17,21 @@
 .container-narrow {
         margin: 0 auto;
         max-width: 800px;
+        background: #FFFFFF;
+        padding: 15px;
+
       }
+
+.intro {
+  padding: 15px;
+}
 
        
  .touch {
   font-size: 1.5em;
  }      
+
+ 
 
 h3 {
   text-align: center;
@@ -24,6 +40,8 @@ h3 {
 
   .navbar, .navbar-inner{
     background: #533885;
+    color #FFFFFF;
+    font-weight: 100px;
 
   }
 
@@ -86,13 +104,10 @@ em{
 
 
 .footer {
-  
- 
-  color: #000;
-  padding: 10px;
-  margin: 0 auto;
-  padding-left: 30px;
-  text-align: center;
+  padding: 25px;
+  background: #422C6A;
+  color: #FFFFFF;
+
 
 }
 

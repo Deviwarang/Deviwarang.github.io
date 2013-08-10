@@ -16,16 +16,15 @@
         <link rel="stylesheet" href="/css/style.css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.js"></script>
-    </head>
-    <script>
-     $(function() {
-        $('#nav li a').click(function() {
-           $('#nav li').removeClass();
-           $($(this).attr('href')).addClass('active');
-        });
-     });
-  </script>
-   
+        <link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Tangerine">
+         <style>
+                    body {
+                      font-family: 'Tangerine', serif;
+                      font-size:16px;
+                         }
+          </style>
+</head>
+          
     <body>
     <div class="container-narrow">
 <img src="/images/swan1.jpg" alt="">
@@ -35,7 +34,7 @@
       <div class="navbar">
         <div class="navbar-inner">
             <ul class="nav">
-              <li><a href="/home/">Home</a></li>              
+              <li><a href="/">Home</a></li>              
               <li><a href="/portfolio/">Portfolio</a></li>
               <li><a href="/why/">WHY</a></li>
               <li><a href="/services/">Services</a></li>
@@ -48,19 +47,21 @@
 
       {{ content }}
    
-           <div class="container-narrow">
-  
-          <div class="span8">
-            <div class="footer">
+           <div class="container-narrow">  
+               
+                  <div class="footer">
 
-            <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
+                  <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
 
-            <p><a href= 'http://facebook.com/pages/Swan-Pixels-Web-Designs/335505166583470?skip_nax_wizard=true'><img src= "/images/Facebook.png" alt: "facebook"></a>
-            <a href= 'https://twitter.com/'><img src= "/images/Twitter.png" alt="Twitter"></a> </p>
+            <br>
+            <br>
 
-          </div>
       
                 <p>&copy; SwanPixels 2013  All Rights Reserved</p>
+              
+              </div>
+              
+              
         
     </div> <!-- /container -->
 
