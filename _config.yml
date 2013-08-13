@@ -7,6 +7,8 @@ permalink: /why/:title
 permalink: /portfolio/:title
 permalink: /faq/:title
 permalink: /contact/:title
+permalink: /about/:title
+permalink: /hire/:title
 auto: true
 
 name: Devi Warang
