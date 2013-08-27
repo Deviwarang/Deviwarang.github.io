@@ -38,6 +38,15 @@ body {
   padding: 10px;
 }
 
+#web-services {
+  background-color: #bfd1e4;
+  border: 10px solid #2563a5;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+
+}
+
 .intro {
   padding: 15px;
 }
