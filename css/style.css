@@ -47,6 +47,17 @@ body {
 
 }
 
+#marketing {
+  background-color: #fff;
+  font-family: Port Ligat Slab;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 3em auto;
+  box-shadow: 0 20px 30px -10px #2b5331;
+}
+ 
 .intro {
   padding: 15px;
 }
