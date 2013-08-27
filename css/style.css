@@ -30,6 +30,14 @@ body {
   padding: 10px;
 
 }
+#why-webdesign {
+  background-color: #9dd4a0;
+  border: 10px solid #2b5331;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+}
+
 .intro {
   padding: 15px;
 }
