@@ -22,6 +22,14 @@ body {
 
       }
 
+#pagedesign {
+  background-color: #E1C490;
+  border: 10px solid #A0752A;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+
+}
 .intro {
   padding: 15px;
 }
@@ -112,6 +120,8 @@ em{
 p {
   text-align: justify;
 }
+
+
 
 #portfolio {
   border: 5px solid #422C6A;
