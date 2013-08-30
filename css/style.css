@@ -47,6 +47,79 @@ body {
 
 }
 
+.square {
+  background-color:steelblue;
+
+height:180px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+}
+
+.square:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+
+border:100px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+}
+
+.square1 {
+  background-color:steelblue;
+
+height:300px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+}
+
+.square1:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+
+border:160px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+}
+ 
+.square2 {
+  background-color:steelblue;
+
+height:130px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+}
+
+.square2:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+
+border:75px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+}
+
+
+
+
+
 #marketing {
   text-align: left;
   background-color: #fff;
