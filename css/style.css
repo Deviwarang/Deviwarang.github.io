@@ -4,8 +4,17 @@ html {
 
 body {
   background: #8F7BAC;
+
   
 }
+
+.phone:before {
+  content: "\2706";
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+
+  }
 .container {
 
   width: 700px;
@@ -104,9 +113,6 @@ color: #fff;
 padding: 5px;
 }
 
-.no {
-  text-align: right;
-}
 .square2:after{
 
 content:' ';
@@ -242,7 +248,7 @@ p {
 
 
 
-#portfolio {
+.portfolio {
   border: 5px solid #422C6A;
 }
 
