@@ -162,6 +162,8 @@ top: -5px;
        
  .touch {
   font-size: 1.5em;
+  line-height: 30px;
+  font-weight: bold;
  }      
 
  
@@ -260,9 +262,23 @@ p {
   margin: 5px;
 }
 
+/* contact Form */
+ input[type=text], textarea {
+  width: 80%;
+  background-color: #faf3bc;
+  color: #333;
 
+ }
 
+ input, textarea,  {
+  padding: 1%;
+  border: 0;
+  border-radius: 15px;
+ }
 
+textarea {
+  height: 150px;
+}
 
 
 

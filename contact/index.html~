@@ -52,6 +52,7 @@ layout: default
 
   <body>
        <div class="container-narrow">
+        <div class="pagedesign">
      	
 	
     	<h2 class="form-signin-heading">Contact <img src="/images/greensmilen.jpg" alt="smile"></h2>
@@ -59,21 +60,27 @@ layout: default
 	        <p>If you would like to get in touch, feel free to email us below or hit us up on Twitter.</p>
 	    </div>
 
-      <form class="form-signin">
+      
+      <form class="form-signin" action="http://getsimpleform.com/messages?form_api_token=3b86e22a2dfd52893b2395de89cfad3b" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 
-        <input type="text" class="input-block-level" placeholder="First name"> 
-        <input type="text" class="input-block-level" placeholder="Last name">
+      <input type='hidden' name='redirect_to' value='http://swanpixels.com/thanks/' />
+      <!-- all your input fields here.... -->
+      
 
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <textarea type="text" class="input-block-level" placeholder="How can I assist you"></textarea>
+        <input type="text" name="firstname" placeholder="First name" /> 
+        <input type="text" name="lastname" placeholder="Last name" />
+
+        <input type="text" name="email" placeholder="Email address" />
+        <textarea type="text" name="assist" placeholder="How can I assist you"></textarea>
         
-        <button class="btn btn-large btn-primary" type="submit">Submit</button>
+        <button class="btn btn-large btn-primary" type="submit" value='send'>Submit</button>
       </form>
-
+      <hr>
     </div> <!-- /container -->
 
     <br>
-	<hr>
+	
 	<div class="container-narrow">
 	<br>
 	<address> 
@@ -87,10 +94,10 @@ layout: default
 	
 
 
-
+</div>
 	</div>
 
- <hr>
+
 
 </section>
 

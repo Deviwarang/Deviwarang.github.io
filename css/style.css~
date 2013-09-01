@@ -1,8 +1,24 @@
+html {
+  height: 100%;
+}
 
+body {
+  background: #8F7BAC;
+
+  
+}
+
+.phone:before {
+  content: "\2706";
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+
+  }
 .container {
 
   width: 700px;
-  background: url('parrotn.jpg');  
+  
   padding-top: 20px;
   margin: 0 auto;
 }
@@ -10,12 +26,145 @@
 .container-narrow {
         margin: 0 auto;
         max-width: 800px;
+        background: #FFFFFF;
+        padding: 15px;
+
       }
+
+.pagedesign {
+  background-color: #E1C490;
+  border: 10px solid #A0752A;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+
+}
+.why-webdesign {
+  background-color: #9dd4a0;
+  border: 10px solid #2b5331;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+}
+
+.web-services {
+  background-color: #bfd1e4;
+  border: 10px solid #2563a5;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+
+}
+
+.square {
+  background-color:steelblue;
+
+height:180px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+
+}
+
+.square:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+
+border:100px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+}
+
+.square1 {
+  background-color:steelblue;
+
+height:290px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+}
+
+.square1:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+border:155px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+
+}
+ 
+.square2 {
+  background-color:steelblue;
+
+height:130px;
+position:relative;
+width:600px;
+color: #fff;
+padding: 5px;
+}
+
+.square2:after{
+
+content:' ';
+height:0;
+width:0;
+position: absolute;
+
+border:75px solid transparent;
+border-left-color: steelblue;
+left:100%;
+top: -5px;
+}
+
+
+
+
+
+#marketing {
+  text-align: left;
+  background-color: #fff;
+  font-family: Port Ligat Slab;
+  font-size: 28px;
+  padding: 10px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 3em auto;
+  box-shadow: 0 20px 30px -10px #2b5331;
+}
+
+#marketing1 {
+  text-align:center;
+  background-color: #fff;
+  font-family: Port Ligat Slab;
+  font-size: 28px;
+  padding: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 3em auto;
+  box-shadow: 0 20px 30px -10px #2b5331;
+}
+
+ 
+.intro {
+  padding: 15px;
+}
 
        
  .touch {
   font-size: 1.5em;
  }      
+
+ 
 
 h3 {
   text-align: center;
@@ -23,13 +172,24 @@ h3 {
   }
 
   .navbar, .navbar-inner{
-    background: #420600;
+    background: #533885;
+    
   }
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  background-color: #A192BC;
+  color: #000;
+} 
+.navbar .active  a {
+  background-color: #A192BC;
+  color: #000;
+}
 
 
 
 a:hover, a:active {
-  background-color: #263;
+  background-color: #000;
 }
 .btn {
   
@@ -55,27 +215,54 @@ em{
   text-align: center;
 }
 
-
-.box
-{
-width:800px;
-padding:5px;
-padding-left: 5px;
-border:5px solid gray;
-margin:20px;
+.low-cost-web-site{
+  width:800;
+  padding: 5px;
+  margin: 20px;
+  
 }
 
+.btn {
+  color: #FAF3BC;
+  background: #4FB69F;
+  padding: 15px 30px;
+  margin: 20px 0px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  text-transform: uppercase;
+}
+
+
 .footer {
-  background: url('parrotn.jpg');
- 
-  color: #000;
-  padding: 10px;
-  margin: 0 auto;
-  padding-left: 30px;
-  text-align: center;
+  padding: 25px;
+  background: #422C6A;
+  color: #FFFFFF;
+
 
 }
 
 p {
   text-align: justify;
 }
+
+
+
+.portfolio {
+  border: 5px solid #422C6A;
+}
+
+.hire {
+  
+  width:250px;
+  padding: 0px;
+  border:5px solid gray;
+  margin: 5px;
+}
+
+
+
+
+
+
+
