@@ -96,13 +96,19 @@ body {
 
 h3 {
   text-align: center;
-
   }
-
+  
+  #swan {
+    border: 1px solid #533885;
+  }
+  
   .navbar, .navbar-inner{
-    background: #533885;
-    
-  }
+    background: #533885;   
+  
+     }
+
+
+
 
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
