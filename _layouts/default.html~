@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
@@ -13,43 +14,58 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/style.css">
-
-    </head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Helvetica">
+         <style>
+       body {
+       font-family: 'Helvetica', san-serif;
+       font-size:1.125em;
+       font-weight: 100;
+       }
+          </style>
+</head>
+          
     <body>
-    <div class="container-narrow">
-<img src="/images/swan1.jpg" alt="">
+    <div class="container-narrow"> 
+    <div id="swan">     
+<p><b><img src="/images/swan1.jpg" alt="" height="32" width:="32">     
+ +91-9930462007/+91-9930789292
+  email-id: swanpixels@gmail.com</b></p>
 <h2><em>SWAN PIXELS WEB DESIGNS</em></h2>
-</div>
-      <div class="container-narrow">
-      <div class="navbar">
-        <div class="navbar-inner">
-            <ul class="nav">
-              <li><a href="/home/">Home</a></li>              
-              <li><a href="/portfolio/">Portfolio</a></li>
-              <li><a href="/why/">WHY</a></li>
-              <li><a href="/services/">Services</a></li>
-              <li><a href="/faq/">FAQ</a></li> 
-              <li><a href="/contact/">Contact</a></li> 
-            </ul>  
-        </div>
-      </div>
     </div>
+      
+	<nav id="rolling-nav">
+        <ul>
+              <li><a href="/" data-clone="Home">Home</a></li>              
+              <li><a href="/portfolio/" data-clone="Portfolio">Portfolio</a></li>
+              <li><a href="/why/" data-clone="Why">Why</a></li>
+              <li><a href="/services/" data-clone="Services">Services</a></li>
+              <li><a href="/faq/" data-clone="Faq">Faq</a></li> 
+              <li><a href="/about/" data-clone="About">About US</a></li>
+              <li><a href="/contact/" data-clone="Contact">Contact</a></li>
+              <li><a href="/hire/" data-clone="Careers">Careers</a></li>
+            </ul> 
+</nav> 
+       
 
       {{ content }}
    
-           <div class="container-narrow">
-  
-          <div class="span8">
-            <div class="footer">
+           <div class="container-narrow">  
+               
+                  <div class="footer">
 
-            <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
+                  <p>A professional web presence builds trust with your visitors, credibility in your industry and increase the perceived value of your prodcuts and services.</p>
 
-            <p><a href= 'http://facebook.com/'><img src= "/images/Facebook.png" alt: "facebook"></a>
-            <a href= 'https://twitter.com/'><img src= "/images/Twitter.png" alt="Twitter"></a> </p>
+            <br>
+           
 
-          </div>
       
                 <p>&copy; SwanPixels 2013  All Rights Reserved</p>
+              
+              </div>
+              
+              
         
     </div> <!-- /container -->
 
