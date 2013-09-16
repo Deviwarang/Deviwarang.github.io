@@ -3,8 +3,42 @@ layout: default
 --- 
 
 <section class="content">
+ <div class="container-narrow">
+ 	<div class="why-webdesign">
+ 	 
 <br><br>
-<h5>This page is under construction</h5><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<hr>
+
+<a href="http://sklineint/sklineint.github.io/">View website</a><br><br>
+<div class="portfolio">
+<a href="http://sklineint/sklineint.github.io/"><img src= "/images/sklineint.png" alt="sklineint" > </a>
+</div>
+
+
+
+<a href="http://www.mkcomputerservice.com">View website</a><br><br>
+<div class="portfolio">
+<a href="http://mkcomco.github.io/"><img src= "/images/mkcomputer.png" alt="mkcomputer" > </a>
+</div>
+      
+<br><br>
+<a href="http://rbwarang.github.io/">View project details</a><br><br>
+<div class="portfolio">
+<a href="http://rbwarang.github.io/"><img src= "/images/cfosupport.png" alt="cfosupport" > </a>
+</div>
+      
+<br><br>
+<div id="marketing1">
+	<p><b>Experience all colors with us.</b></p>
+            <p><b>We do magic with our works.</b></p>
+            <p><b>We create mind boggling designs.</b></p>
+            <p><b>Creativity at its best.</b></p>
+            <p><b>Be top on Google Rankings within two weeks!</b></p>
+
+               </div
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+
+
 
 </section>
