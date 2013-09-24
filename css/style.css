@@ -11,6 +11,14 @@ background-color:#3C3C3C;
   
 }
 
+#title{
+   font-family:  'AgencyFB', 'Helvetica', san-serif;
+       font-size:2em;
+       font-weight: 100;
+       color:#f6031a; 
+
+}
+
 .phone:before {
   content: "\2706";
   font-size: 1.5em;
