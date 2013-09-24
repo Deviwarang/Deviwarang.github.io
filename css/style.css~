@@ -6,9 +6,21 @@ body {
   
 background-color:#3C3C3C;
   margin:0px 0px;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 100px 0px;  
+}
 
-  
+
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('/fonts/agencyfb-bold.ttf');
+}
+
+#title{
+   font-family:  'AgencyFB', 'Helvetica', san-serif;
+       font-size:2em;
+       font-weight: 100;
+       color:#f6031a; 
+
 }
 
 .phone:before {
