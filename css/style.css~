@@ -12,8 +12,23 @@ background-color:#3C3C3C;
 
 @font-face {
   font-family: 'AgencyFB';
-  src: url('/fonts/agencyfb-bold.ttf');
+  src: url('/fonts/agencyfb-bold.ttf');  
+
 }
+
+@font-face {
+  font-family: 'Janda Elegant Handwriting';
+  src: url('/fonts/JandaElegantHandwriting.ttf'); 
+} 
+
+ 
+h4 {
+  font-family: 'Janda Elegant Handwriting', 'Helvetica', san-serif;
+  font-size: 1.125em;
+  text-align: left;
+  line-height: 24px;
+}
+
 
 #title{
    font-family:  'AgencyFB', 'Helvetica', san-serif;
@@ -22,6 +37,8 @@ background-color:#3C3C3C;
        color:#f6031a; 
 
 }
+
+
 
 .phone:before {
   content: "\2706";
@@ -110,7 +127,15 @@ address {
 }
 #web-design-mumbai{
 color: #ffffff;
+} 
+
+
+#web-design-mumbai img {
+
+ border: 10px solid #98f0f8;
+ border-radius: 50%;
 }
+
        
  .touch {
   font-size: 1.5em;
