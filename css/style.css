@@ -47,17 +47,11 @@ h4 {
   text-align: right;
 
   }
-.container {
 
-  width: 700px;
-  
-  padding-top: 20px;
-  margin: 0 auto;
-}
 
 .container-narrow {
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 900px;
 background-color:#111;
        
         padding: 15px;
@@ -75,24 +69,21 @@ address {
 .pagedesign {
   background-color: #E1C490;
   border: 10px solid #A0752A;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;  
   padding: 10px;
 
 }
 .why-webdesign {
   background-color: #9dd4a0;
   border: 10px solid #2b5331;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;
   padding: 10px;
 }
 
 .web-services {
   background-color: #bfd1e4;
   border: 10px solid #2563a5;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;
   padding: 10px;
 
 }
@@ -127,7 +118,7 @@ address {
 }
 #web-design-mumbai{
 color: #ffffff;
-} 
+}
 
 
 #web-design-mumbai img {
@@ -243,13 +234,16 @@ textarea {
 
 /* navigation bar */
 
+
+
 #rolling-nav {
   font:normal 12px 'Trebuchet MS',Trebuchet,Arial,Sans-Serif;
   color:white;
   text-transform:uppercase;
 	/* outline:1px solid; */
-	width:850px; /* Fixed width. Measure it manually */
+	width:100%; /* Fixed width. Measure it manually */
 	margin:0px auto;
+        
 }
 
 #rolling-nav ul {
