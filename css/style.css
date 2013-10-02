@@ -110,10 +110,14 @@ address {
 
 }
 .why-webdesign {
-  background-color: #9dd4a0;
-  border: 10px solid #2b5331;
+  background-color: #99B8CD;
+  border: 10px solid #457da4;
   border-radius: 30px;
   padding: 10px;
+}
+
+#www {
+  margin-left: 10px;
 }
 
 .web-services {
