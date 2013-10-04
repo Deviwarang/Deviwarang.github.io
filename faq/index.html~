@@ -4,13 +4,23 @@ layout: default
 
 <section class="content">
 
+<div class="container-narrow">
+     	<div class="row-fluid marketing">
+     		<div class="span12">     			
+                    <img src="/images/faq.jpg" alt="faq" width="900" height="300">
+     		
+     			<br><br>    			
+     		</div>
+     		
+          </div>
+          </div>
  <div class="container-narrow">
      <div class="why-webdesign">
      	<div class="row-fluid marketing">
      		 <div class="span8">
      		 <br><br>
-     		 	<h2>Frequently Asked Questions</h2>
-     		 	<br> 
+     		 	
+     		 	
      		 <p>Companies always question about getting the website made. Here are some of the most common we receive.</p><br>
      		 <br>
      		<p><b>How much it will cost?</b></p>
@@ -33,6 +43,9 @@ layout: default
           </div>
      		 	
      		 <div class="span4">
+<br> 
+		<br><br><br><br><br><br><br><br><br><br>   
+                
      		 	<style>
 				div.ex
 				{
