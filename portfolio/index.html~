@@ -8,30 +8,27 @@ layout: default
  	 
 <br><br>
 
-<a href="http://hanumanacc.github.io/">View website</a><br><br>
-<div class="portfolio">
-<a href="http://hanumanacc.github.io/"><img src= "/images/hanumanacc.png" alt="hanumanacc" > </a>
-</div>
+<ul class="thumbnails">
+              <li class="span2">
+               <a href="http://sklineint.github.io/" class="thumbnail" ><img src= "/images/skl.jpg" alt="sklineint" width="300" height="300"> </a>
+              </li>
+              <li class="span2">
+                <a href="http://mkcomco.github.io/"  class="thumbnail"><img src= "/images/mkl.jpg" alt="mkcomputer" width="300" height="300" > </a>
+              </li>
+              <li class="span2">
+                <a href="http://camaf.github.io/"  class="thumbnail"><img src= "/images/mfr.jpg" alt="mafree" width="300" height="300"> </a>
+              </li>
+              <li class="span2">
+                <a href="http://shalu11.github.io/"  class="thumbnail"><img src= "/images/shl.jpg" alt="mafree" width="300" height="300"> </a>
+              </li>
+              <li class="span2">
+                <a href="http://rbwarang.github.io/"  class="thumbnail"><img src= "/images/cfl.jpg" alt="mafree" width="300" height="300"> </a>
+              </li>
+              
+            </ul>
 
 
-<a href="http://sklineint.github.io/">View website</a><br><br>
-<div class="portfolio">
-<a href="http://sklineint.github.io/"><img src= "/images/sklineint.png" alt="sklineint" > </a>
-</div>
 
-
-
-<a href="http://www.mkcomputerservice.com">View website</a><br><br>
-<div class="portfolio">
-<a href="http://mkcomco.github.io/"><img src= "/images/mkcomputer.png" alt="mkcomputer" > </a>
-</div>
-      
-<br><br>
-<a href="http://rbwarang.github.io/">View project details</a><br><br>
-<div class="portfolio">
-<a href="http://rbwarang.github.io/"><img src= "/images/cfosupport.png" alt="cfosupport" > </a>
-</div>
-      
 <br><br>
 <div id="marketing1">
 	<p><b>Experience all colors with us.</b></p>
