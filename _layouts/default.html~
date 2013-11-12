@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/style.css">
+        
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Helvetica">
@@ -33,7 +34,7 @@
       
     <div id="web-design-mumbai">     
 <p><b><img src="/images/swan1.jpg" alt="" height="32" width:="32">     
- +91-9930462007/+91-9930789292 (Mumbai)
+ +91-9930462007/+91-9930789292
   email-id: swanpixels@gmail.com</b></p>
 <h2 id="title"><em>SWAN  PIXELS  WEB  DESIGNS</em></h2>
     </div>
@@ -51,7 +52,7 @@
             </ul> 
 </nav> 
        
-
+</div>
       {{ content }}
    
            <div class="container-narrow">  

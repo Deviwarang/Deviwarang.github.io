@@ -103,11 +103,9 @@ background-color:#111;
 	margin: 0 auto;
         max-width: 900px;
 	background-color:#111;
+	padding:15px;
        
-        
-
-
-}
+        }
 
 .footer {
 	color:#ffffff;
