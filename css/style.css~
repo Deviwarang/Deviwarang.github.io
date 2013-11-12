@@ -13,6 +13,10 @@ background-color:#3C3C3C;
       	width: 100%;
       }
  
+img.slider {
+	width: 61.250em;
+	height: 18.750em;
+}
 
 .low-cost-web-site a {
   position: relative;
@@ -101,10 +105,9 @@ background-color:#111;
 
 .container-fluid {
 	margin: 0 auto;
-        max-width: 900px;
+        max-width: 1000px;
 	background-color:#111;
-	padding:15px;
-       
+	     
         }
 
 #photo {

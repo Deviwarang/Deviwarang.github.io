@@ -5,12 +5,11 @@ title: Swan Pixels Web Designs
 
 <section class="content">
 
-<div class="container-narrow">
+<div class="container-fluid">
      
-      <div class="row-fluid marketing">
+      <div class="row-fluid">
          <div class="span12">
- 
-
+	<div id="photo">
      
           <style type="text/css">
 
@@ -22,11 +21,11 @@ title: Swan Pixels Web Designs
   }
   #stage4 a {  
     position: absolute;
-    left: 11.20em;
+    margin: 0em auto;
+    left: 155px;
       
   }
-   #stage4 a img {
-    
+   #stage4 a img {    
     padding: 10px;
     border: 1px solid #ccc;
     background: #fff;
@@ -61,16 +60,16 @@ title: Swan Pixels Web Designs
   }
 
 </style>
-
+<br><br>
 <div id="stage4">
-<a href="/images/1.jpg"><img src="/images/1.jpg" width="850" height="300"></a>
-<a href="/images/2.jpg"><img src="/images/2.jpg" width="850" height="300"></a>
-<a href="/images/3.jpg"><img src="/images/3.jpg" width="850" height="300"></a>
-<a href="/images/4.jpg"><img src="/images/4.jpg" width="850" height="300"></a>
-<a href="/images/5.jpg"><img src="/images/5.jpg" width="850" height="300"></a>
-<a href="/images/6.jpg"><img src="/images/6.jpg" width="850" height="300"></a>
-<a href="/images/7.jpg"><img src="/images/7.jpg" width="850" height="300"></a>
-<a href="/images/8.jpg"><img src="/images/8.jpg" width="850" height="300"></a>
+<a href="/images/1.jpg"><img src="/images/1.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/2.jpg"><img src="/images/2.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/3.jpg"><img src="/images/3.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/4.jpg"><img src="/images/4.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/5.jpg"><img src="/images/5.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/6.jpg"><img src="/images/6.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/7.jpg"><img src="/images/7.jpg" class="slider" width="980" height="300"></a>
+<a href="/images/8.jpg"><img src="/images/8.jpg" class="slider" width="980" height="300"></a>
 </div>
 
 <script type="text/javascript">
@@ -90,14 +89,15 @@ title: Swan Pixels Web Designs
   }, false);
 
 </script>
+<br><br>
 </div>
 </div>
-              
+</div>             
 </div>
 
- <div class="container-narrow">
+ <div class="container-fluid">
      <div class="pagedesign">
-      <div class="row-fluid marketing">
+      <div class="row-fluid">
          <div class="span12">
           <br> 
                <marquee> <h4>Websites for small and medium sized business at Affordable Prices.</h4></marquee><br>
@@ -106,7 +106,7 @@ title: Swan Pixels Web Designs
   </div> 
     
      
-      <div class="row-fluid marketing">
+      <div class="row-fluid">
         <div class="span4">
 <p>We design, develop and host web sites which are innovative, creative, appealing and attractive. We do this work at reasonable - affordable prices and at minimum costs. The internet is a great tool and we make it easy for anybody to set up a website and leverage the power of the internet to maximize their poential.</p>
         
@@ -135,7 +135,7 @@ title: Swan Pixels Web Designs
     </div>
     </div>
 
-        <div class="container-narrow">
+        <div class="container-fluid">
     <div class="low-cost-web-site">
       <h2>GIVE YOUR BUSINESS A PROFESSIONAL WEB PRESENCE TODAY.</h2>
               <a href="/contact/" >Contact Us</a>
