@@ -9,6 +9,47 @@ background-color:#3C3C3C;
   padding: 100px 0px 100px 0px;  
 }
 
+ #photo {
+      	width: 100%;
+      }
+ 
+
+.low-cost-web-site a {
+  position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 1.500em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+a:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
 
 @font-face {
   font-family: 'AgencyFB';
@@ -74,10 +115,14 @@ address {
 
 }
 .why-webdesign {
-  background-color: #9dd4a0;
-  border: 10px solid #2b5331;
+  background-color: #99B8CD;
+  border: 10px solid #457da4;
   border-radius: 30px;
   padding: 10px;
+}
+
+#www {
+  margin-left: 10px;
 }
 
 .web-services {
@@ -124,7 +169,7 @@ color: #ffffff;
 #web-design-mumbai img {
 
  border: 10px solid #98f0f8;
- border-radius: 50%;
+ border-radius: 20px;
 }
 
        
@@ -200,11 +245,24 @@ p {
 }
 
 
-
 .portfolio {
-  border: 5px solid #422C6A;
+  background-color: #262626;
+  color: #fff;
+ padding: 30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+  text-align: justify;
+ -webkit-column-count: 2;
+ -moz-column-count: 2;
+  column-count: 2;
+ -webkit-column-gap: 2em;
+ -moz-column-gap: 2em;
+  column-gap: 2em;
+ -webkit-column-rule-width: 2em;
+ -moz-column-rule-width: 2em;
+  column-rule: 2em;
 }
-
 .hire {
   
   width:250px;

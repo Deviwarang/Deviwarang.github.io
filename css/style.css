@@ -9,6 +9,11 @@ background-color:#3C3C3C;
   padding: 100px 0px 100px 0px;  
 }
 
+ #photo {
+      	width: 100%;
+      }
+ 
+
 .low-cost-web-site a {
   position: relative;
     color: rgba(255,255,255,1);
