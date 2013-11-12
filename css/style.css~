@@ -107,6 +107,11 @@ background-color:#111;
        
         }
 
+#photo {
+
+  width: 100%;
+  }
+
 .footer {
 	color:#ffffff;
   }
