@@ -8,20 +8,18 @@ background-color:#3C3C3C;
   margin:0px 0px;
   padding: 100px 0px 100px 0px;  
 }
-.container-fluid {
-  margin: 0 auto;
+ .container-fluid{
+        margin: 0 auto;
         max-width: 1000px;
-  background-color:#111;       
-        }
-
-  #photo {
-
-      	width: 100%;
+      }
+      #photo {
+        width: 100%;
       }
  
-.slider {
-	width: 61.250em;
-	height: 18.750em;
+
+img.slider {
+  width: 61.250em;
+  height: 18.750em;
 }
 
 .low-cost-web-site a {
